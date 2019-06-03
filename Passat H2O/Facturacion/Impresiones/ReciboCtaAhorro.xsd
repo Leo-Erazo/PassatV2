@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReciboCtaAhorro" targetNamespace="http://tempuri.org/ReciboCtaAhorro.xsd" xmlns:mstns="http://tempuri.org/ReciboCtaAhorro.xsd" xmlns="http://tempuri.org/ReciboCtaAhorro.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReciboCtaAhorro" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ReciboCtaAhorro" msprop:Generator_DataSetName="ReciboCtaAhorro">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="ReciboCtaAhorro" msprop:Generator_UserTableName="ReciboCtaAhorro" msprop:Generator_RowDeletedName="ReciboCtaAhorroRowDeleted" msprop:Generator_TableClassName="ReciboCtaAhorroDataTable" msprop:Generator_RowChangedName="ReciboCtaAhorroRowChanged" msprop:Generator_RowClassName="ReciboCtaAhorroRow" msprop:Generator_RowChangingName="ReciboCtaAhorroRowChanging" msprop:Generator_RowEvArgName="ReciboCtaAhorroRowChangeEvent" msprop:Generator_RowEvHandlerName="ReciboCtaAhorroRowChangeEventHandler" msprop:Generator_TablePropName="_ReciboCtaAhorro" msprop:Generator_TableVarName="tableReciboCtaAhorro" msprop:Generator_RowDeletingName="ReciboCtaAhorroRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Transac_num" msprop:Generator_UserColumnName="Transac_num" msprop:Generator_ColumnPropNameInRow="Transac_num" msprop:Generator_ColumnVarNameInTable="columnTransac_num" msprop:Generator_ColumnPropNameInTable="Transac_numColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Cuenta" msdata:Caption="Factura_Num" msprop:Generator_UserColumnName="Cuenta" msprop:Generator_ColumnPropNameInRow="Cuenta" msprop:Generator_ColumnVarNameInTable="columnCuenta" msprop:Generator_ColumnPropNameInTable="CuentaColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Socio_ID" msprop:Generator_UserColumnName="Socio_ID" msprop:Generator_ColumnPropNameInRow="Socio_ID" msprop:Generator_ColumnVarNameInTable="columnSocio_ID" msprop:Generator_ColumnPropNameInTable="Socio_IDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Propietario" msprop:Generator_UserColumnName="Propietario" msprop:Generator_ColumnPropNameInRow="Propietario" msprop:Generator_ColumnVarNameInTable="columnPropietario" msprop:Generator_ColumnPropNameInTable="PropietarioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Direccion_fisica" msprop:Generator_UserColumnName="Direccion_fisica" msprop:Generator_ColumnPropNameInRow="Direccion_fisica" msprop:Generator_ColumnVarNameInTable="columnDireccion_fisica" msprop:Generator_ColumnPropNameInTable="Direccion_fisicaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Saldo_anterior" msprop:Generator_UserColumnName="Saldo_anterior" msprop:Generator_ColumnPropNameInRow="Saldo_anterior" msprop:Generator_ColumnVarNameInTable="columnSaldo_anterior" msprop:Generator_ColumnPropNameInTable="Saldo_anteriorColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Importe_abono" msdata:Caption="Abono_importe" msprop:Generator_UserColumnName="Importe_abono" msprop:Generator_ColumnPropNameInRow="Importe_abono" msprop:Generator_ColumnVarNameInTable="columnImporte_abono" msprop:Generator_ColumnPropNameInTable="Importe_abonoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Nuevo_Saldo" msdata:Caption="Saldo_nuevo" msprop:Generator_UserColumnName="Nuevo_Saldo" msprop:Generator_ColumnPropNameInRow="Nuevo_Saldo" msprop:Generator_ColumnVarNameInTable="columnNuevo_Saldo" msprop:Generator_ColumnPropNameInTable="Nuevo_SaldoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Fecha_transac" msdata:Caption="Fecha_abono" msprop:Generator_UserColumnName="Fecha_transac" msprop:Generator_ColumnPropNameInRow="Fecha_transac" msprop:Generator_ColumnVarNameInTable="columnFecha_transac" msprop:Generator_ColumnPropNameInTable="Fecha_transacColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Anotaciones" msprop:Generator_UserColumnName="Anotaciones" msprop:Generator_ColumnPropNameInRow="Anotaciones" msprop:Generator_ColumnVarNameInTable="columnAnotaciones" msprop:Generator_ColumnPropNameInTable="AnotacionesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="600" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Nombre" msprop:Generator_UserColumnName="Nombre" msprop:Generator_ColumnPropNameInRow="Nombre" msprop:Generator_ColumnVarNameInTable="columnNombre" msprop:Generator_ColumnPropNameInTable="NombreColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

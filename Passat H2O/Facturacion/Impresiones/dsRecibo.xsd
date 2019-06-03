@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsRecibo" targetNamespace="http://tempuri.org/dsRecibo.xsd" xmlns:mstns="http://tempuri.org/dsRecibo.xsd" xmlns="http://tempuri.org/dsRecibo.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsRecibo" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsRecibo" msprop:Generator_DataSetName="dsRecibo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Recibo" msprop:Generator_UserTableName="Recibo" msprop:Generator_RowDeletedName="ReciboRowDeleted" msprop:Generator_RowChangedName="ReciboRowChanged" msprop:Generator_RowClassName="ReciboRow" msprop:Generator_RowChangingName="ReciboRowChanging" msprop:Generator_RowEvArgName="ReciboRowChangeEvent" msprop:Generator_RowEvHandlerName="ReciboRowChangeEventHandler" msprop:Generator_TableClassName="ReciboDataTable" msprop:Generator_TableVarName="tableRecibo" msprop:Generator_RowDeletingName="ReciboRowDeleting" msprop:Generator_TablePropName="Recibo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Factura_Num" msprop:Generator_UserColumnName="Factura_Num" msprop:Generator_ColumnPropNameInRow="Factura_Num" msprop:Generator_ColumnVarNameInTable="columnFactura_Num" msprop:Generator_ColumnPropNameInTable="Factura_NumColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Socio_ID" msprop:Generator_UserColumnName="Socio_ID" msprop:Generator_ColumnPropNameInRow="Socio_ID" msprop:Generator_ColumnVarNameInTable="columnSocio_ID" msprop:Generator_ColumnPropNameInTable="Socio_IDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Propietario" msprop:Generator_UserColumnName="Propietario" msprop:Generator_ColumnPropNameInRow="Propietario" msprop:Generator_ColumnVarNameInTable="columnPropietario" msprop:Generator_ColumnPropNameInTable="PropietarioColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Saldo_ant" msprop:Generator_UserColumnName="Saldo_ant" msprop:Generator_ColumnPropNameInRow="Saldo_ant" msprop:Generator_ColumnVarNameInTable="columnSaldo_ant" msprop:Generator_ColumnPropNameInTable="Saldo_antColumn" type="xs:double" default="0" minOccurs="0" />
+              <xs:element name="Abono" msprop:Generator_UserColumnName="Abono" msprop:Generator_ColumnPropNameInRow="Abono" msprop:Generator_ColumnVarNameInTable="columnAbono" msprop:Generator_ColumnPropNameInTable="AbonoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Saldo_nu" msprop:Generator_UserColumnName="Saldo_nu" msprop:Generator_ColumnPropNameInRow="Saldo_nu" msprop:Generator_ColumnVarNameInTable="columnSaldo_nu" msprop:Generator_ColumnPropNameInTable="Saldo_nuColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Fecha_abono" msprop:Generator_UserColumnName="Fecha_abono" msprop:Generator_ColumnPropNameInRow="Fecha_abono" msprop:Generator_ColumnVarNameInTable="columnFecha_abono" msprop:Generator_ColumnPropNameInTable="Fecha_abonoColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="Anotaciones" msprop:Generator_UserColumnName="Anotaciones" msprop:Generator_ColumnPropNameInRow="Anotaciones" msprop:Generator_ColumnVarNameInTable="columnAnotaciones" msprop:Generator_ColumnPropNameInTable="AnotacionesColumn" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="600" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Fecha_vence" msprop:Generator_UserColumnName="Fecha_vence" msprop:Generator_ColumnVarNameInTable="columnFecha_vence" msprop:Generator_ColumnPropNameInRow="Fecha_vence" msprop:Generator_ColumnPropNameInTable="Fecha_venceColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="direccion" msprop:Generator_UserColumnName="direccion" msprop:Generator_ColumnPropNameInRow="direccion" msprop:Generator_ColumnVarNameInTable="columndireccion" msprop:Generator_ColumnPropNameInTable="direccionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Servicio_desc" msprop:Generator_UserColumnName="Servicio_desc" msprop:Generator_ColumnPropNameInRow="Servicio_desc" msprop:Generator_ColumnVarNameInTable="columnServicio_desc" msprop:Generator_ColumnPropNameInTable="Servicio_descColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

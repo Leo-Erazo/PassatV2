@@ -1,0 +1,232 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PassatH2O
+</name>
+</assembly>
+<members>
+<member name="T:Passat_H2O.dsLista_inconsistencias.InconsistenciasDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsLista_inconsistencias.InconsistenciasRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsLista_inconsistencias.InconsistenciasRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsLista_inconsistencias">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_historicos.Abonos_historicosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_historicos.Abonos_historicosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_historicos.Abonos_historicosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_historicos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.Pagos_del_dia.PagosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.Pagos_del_dia.PagosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.Pagos_del_dia.PagosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.Pagos_del_dia">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsCobros_mes.Listado_cobrosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsCobros_mes.Listado_cobrosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsCobros_mes.Listado_cobrosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsCobros_mes">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsPagosImpagos.PagosImpagosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsPagosImpagos.PagosImpagosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsPagosImpagos.PagosImpagosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsPagosImpagos">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsFactura_Manual.FacturaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsFactura_Manual.FacturaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsFactura_Manual.FacturaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsFactura_Manual">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsSaldos_socio.Saldos_socioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsSaldos_socio.Saldos_socioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsSaldos_socio.Saldos_socioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsSaldos_socio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsToma_lectura.Listado_lecturaDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsToma_lectura.Listado_lecturaRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsToma_lectura.Listado_lecturaRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsToma_lectura">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsRecibo.ReciboDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsRecibo.ReciboRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsRecibo.ReciboRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsRecibo">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.ReciboCtaAhorro.ReciboCtaAhorroDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.ReciboCtaAhorro.ReciboCtaAhorroRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.ReciboCtaAhorro.ReciboCtaAhorroRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.ReciboCtaAhorro">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsCorte_servicio.Corte_servicioDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsCorte_servicio.Corte_servicioRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsCorte_servicio.Corte_servicioRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsCorte_servicio">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="P:Passat_H2O.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:Passat_H2O.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+</summary>
+</member><member name="T:Passat_H2O.My.Resources.Resources">
+	<summary>
+  Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_del_mes_consolidado_tipoAbono.AbonosDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_del_mes_consolidado_tipoAbono.AbonosRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_del_mes_consolidado_tipoAbono.AbonosRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsAbonos_del_mes_consolidado_tipoAbono">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:Passat_H2O.dsFacturas.Facturacion_EncabezadoDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:Passat_H2O.dsFacturas.Facturacion_EncabezadoRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:Passat_H2O.dsFacturas.Facturacion_EncabezadoRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:Passat_H2O.dsFacturas">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+</members>
+</doc>

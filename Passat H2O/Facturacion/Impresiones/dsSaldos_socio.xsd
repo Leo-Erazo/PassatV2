@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsSaldos_socio" targetNamespace="http://tempuri.org/dsSaldos_socio.xsd" xmlns:mstns="http://tempuri.org/dsSaldos_socio.xsd" xmlns="http://tempuri.org/dsSaldos_socio.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsSaldos_socio" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsSaldos_socio" msprop:Generator_DataSetName="dsSaldos_socio">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Saldos_socio" msprop:Generator_UserTableName="Saldos_socio" msprop:Generator_RowDeletedName="Saldos_socioRowDeleted" msprop:Generator_RowChangedName="Saldos_socioRowChanged" msprop:Generator_RowClassName="Saldos_socioRow" msprop:Generator_RowChangingName="Saldos_socioRowChanging" msprop:Generator_RowEvArgName="Saldos_socioRowChangeEvent" msprop:Generator_RowEvHandlerName="Saldos_socioRowChangeEventHandler" msprop:Generator_TableClassName="Saldos_socioDataTable" msprop:Generator_TableVarName="tableSaldos_socio" msprop:Generator_RowDeletingName="Saldos_socioRowDeleting" msprop:Generator_TablePropName="Saldos_socio">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Transacc_num" msprop:Generator_UserColumnName="Transacc_num" msprop:Generator_ColumnVarNameInTable="columnTransacc_num" msprop:Generator_ColumnPropNameInRow="Transacc_num" msprop:Generator_ColumnPropNameInTable="Transacc_numColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Factura_num" msprop:Generator_UserColumnName="Factura_num" msprop:Generator_ColumnVarNameInTable="columnFactura_num" msprop:Generator_ColumnPropNameInRow="Factura_num" msprop:Generator_ColumnPropNameInTable="Factura_numColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Periodo_ID" msprop:Generator_UserColumnName="Periodo_ID" msprop:Generator_ColumnVarNameInTable="columnPeriodo_ID" msprop:Generator_ColumnPropNameInRow="Periodo_ID" msprop:Generator_ColumnPropNameInTable="Periodo_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Fecha_cargo" msprop:Generator_UserColumnName="Fecha_cargo" msprop:Generator_ColumnVarNameInTable="columnFecha_cargo" msprop:Generator_ColumnPropNameInRow="Fecha_cargo" msprop:Generator_ColumnPropNameInTable="Fecha_cargoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Cuenta" msprop:Generator_UserColumnName="Cuenta" msprop:Generator_ColumnVarNameInTable="columnCuenta" msprop:Generator_ColumnPropNameInRow="Cuenta" msprop:Generator_ColumnPropNameInTable="CuentaColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Inquilino" msprop:Generator_UserColumnName="Inquilino" msprop:Generator_ColumnVarNameInTable="columnInquilino" msprop:Generator_ColumnPropNameInRow="Inquilino" msprop:Generator_ColumnPropNameInTable="InquilinoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Cargo" msprop:Generator_UserColumnName="Cargo" msprop:Generator_ColumnVarNameInTable="columnCargo" msprop:Generator_ColumnPropNameInRow="Cargo" msprop:Generator_ColumnPropNameInTable="CargoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Saldo" msprop:Generator_UserColumnName="Saldo" msprop:Generator_ColumnVarNameInTable="columnSaldo" msprop:Generator_ColumnPropNameInRow="Saldo" msprop:Generator_ColumnPropNameInTable="SaldoColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Sector_Desc" msprop:Generator_UserColumnName="Sector_Desc" msprop:Generator_ColumnVarNameInTable="columnSector_Desc" msprop:Generator_ColumnPropNameInRow="Sector_Desc" msprop:Generator_ColumnPropNameInTable="Sector_DescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="servicio_ID" msprop:Generator_UserColumnName="servicio_ID" msprop:Generator_ColumnPropNameInRow="servicio_ID" msprop:Generator_ColumnVarNameInTable="columnservicio_ID" msprop:Generator_ColumnPropNameInTable="servicio_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Servicio_desc" msprop:Generator_UserColumnName="Servicio_desc" msprop:Generator_ColumnPropNameInRow="Servicio_desc" msprop:Generator_ColumnVarNameInTable="columnServicio_desc" msprop:Generator_ColumnPropNameInTable="Servicio_descColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsAbonos_historicos" targetNamespace="http://tempuri.org/dsAbonos_historicos.xsd" xmlns:mstns="http://tempuri.org/dsAbonos_historicos.xsd" xmlns="http://tempuri.org/dsAbonos_historicos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsAbonos_historicos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsAbonos_historicos" msprop:Generator_DataSetName="dsAbonos_historicos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Abonos_historicos" msprop:Generator_UserTableName="Abonos_historicos" msprop:Generator_RowDeletedName="Abonos_historicosRowDeleted" msprop:Generator_RowChangedName="Abonos_historicosRowChanged" msprop:Generator_RowClassName="Abonos_historicosRow" msprop:Generator_RowChangingName="Abonos_historicosRowChanging" msprop:Generator_RowEvArgName="Abonos_historicosRowChangeEvent" msprop:Generator_RowEvHandlerName="Abonos_historicosRowChangeEventHandler" msprop:Generator_TableClassName="Abonos_historicosDataTable" msprop:Generator_TableVarName="tableAbonos_historicos" msprop:Generator_RowDeletingName="Abonos_historicosRowDeleting" msprop:Generator_TablePropName="Abonos_historicos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Transac_num" msprop:Generator_UserColumnName="Transac_num" msprop:Generator_ColumnPropNameInRow="Transac_num" msprop:Generator_ColumnVarNameInTable="columnTransac_num" msprop:Generator_ColumnPropNameInTable="Transac_numColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Factura_num" msprop:Generator_UserColumnName="Factura_num" msprop:Generator_ColumnPropNameInRow="Factura_num" msprop:Generator_ColumnVarNameInTable="columnFactura_num" msprop:Generator_ColumnPropNameInTable="Factura_numColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Socio_ID" msprop:Generator_UserColumnName="Socio_ID" msprop:Generator_ColumnPropNameInRow="Socio_ID" msprop:Generator_ColumnVarNameInTable="columnSocio_ID" msprop:Generator_ColumnPropNameInTable="Socio_IDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Propietario" msprop:Generator_UserColumnName="Propietario" msprop:Generator_ColumnPropNameInRow="Propietario" msprop:Generator_ColumnVarNameInTable="columnPropietario" msprop:Generator_ColumnPropNameInTable="PropietarioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Inquilino" msprop:Generator_UserColumnName="Inquilino" msprop:Generator_ColumnPropNameInRow="Inquilino" msprop:Generator_ColumnVarNameInTable="columnInquilino" msprop:Generator_ColumnPropNameInTable="InquilinoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Abono_importe" msprop:Generator_UserColumnName="Abono_importe" msprop:Generator_ColumnPropNameInRow="Abono_importe" msprop:Generator_ColumnVarNameInTable="columnAbono_importe" msprop:Generator_ColumnPropNameInTable="Abono_importeColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="Fecha_abono" msprop:Generator_UserColumnName="Fecha_abono" msprop:Generator_ColumnPropNameInRow="Fecha_abono" msprop:Generator_ColumnVarNameInTable="columnFecha_abono" msprop:Generator_ColumnPropNameInTable="Fecha_abonoColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sector_Desc" msprop:Generator_UserColumnName="Sector_Desc" msprop:Generator_ColumnPropNameInRow="Sector_Desc" msprop:Generator_ColumnVarNameInTable="columnSector_Desc" msprop:Generator_ColumnPropNameInTable="Sector_DescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Bloque_Desc" msprop:Generator_UserColumnName="Bloque_Desc" msprop:Generator_ColumnPropNameInRow="Bloque_Desc" msprop:Generator_ColumnVarNameInTable="columnBloque_Desc" msprop:Generator_ColumnPropNameInTable="Bloque_DescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_UserColumnName="Descripcion" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Anotaciones" msprop:Generator_UserColumnName="Anotaciones" msprop:Generator_ColumnVarNameInTable="columnAnotaciones" msprop:Generator_ColumnPropNameInRow="Anotaciones" msprop:Generator_ColumnPropNameInTable="AnotacionesColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Servicio_desc" msprop:Generator_UserColumnName="Servicio_desc" msprop:Generator_ColumnPropNameInRow="Servicio_desc" msprop:Generator_ColumnVarNameInTable="columnServicio_desc" msprop:Generator_ColumnPropNameInTable="Servicio_descColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

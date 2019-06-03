@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsLista_inconsistencias" targetNamespace="http://tempuri.org/dsLista_inconsistencias.xsd" xmlns:mstns="http://tempuri.org/dsLista_inconsistencias.xsd" xmlns="http://tempuri.org/dsLista_inconsistencias.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsLista_inconsistencias" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsLista_inconsistencias" msprop:Generator_DataSetName="dsLista_inconsistencias">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Inconsistencias" msprop:Generator_UserTableName="Inconsistencias" msprop:Generator_RowDeletedName="InconsistenciasRowDeleted" msprop:Generator_TableClassName="InconsistenciasDataTable" msprop:Generator_RowChangedName="InconsistenciasRowChanged" msprop:Generator_RowClassName="InconsistenciasRow" msprop:Generator_RowChangingName="InconsistenciasRowChanging" msprop:Generator_RowEvArgName="InconsistenciasRowChangeEvent" msprop:Generator_RowEvHandlerName="InconsistenciasRowChangeEventHandler" msprop:Generator_TablePropName="Inconsistencias" msprop:Generator_TableVarName="tableInconsistencias" msprop:Generator_RowDeletingName="InconsistenciasRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Periodo_ID" msprop:Generator_UserColumnName="Periodo_ID" msprop:Generator_ColumnPropNameInRow="Periodo_ID" msprop:Generator_ColumnVarNameInTable="columnPeriodo_ID" msprop:Generator_ColumnPropNameInTable="Periodo_IDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Sector_Desc" msprop:Generator_UserColumnName="Sector_Desc" msprop:Generator_ColumnPropNameInRow="Sector_Desc" msprop:Generator_ColumnVarNameInTable="columnSector_Desc" msprop:Generator_ColumnPropNameInTable="Sector_DescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Bloque_Desc" msprop:Generator_UserColumnName="Bloque_Desc" msprop:Generator_ColumnPropNameInRow="Bloque_Desc" msprop:Generator_ColumnVarNameInTable="columnBloque_Desc" msprop:Generator_ColumnPropNameInTable="Bloque_DescColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Socio_ID" msprop:Generator_UserColumnName="Socio_ID" msprop:Generator_ColumnPropNameInRow="Socio_ID" msprop:Generator_ColumnVarNameInTable="columnSocio_ID" msprop:Generator_ColumnPropNameInTable="Socio_IDColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="propietario" msprop:Generator_UserColumnName="propietario" msprop:Generator_ColumnPropNameInRow="propietario" msprop:Generator_ColumnVarNameInTable="columnpropietario" msprop:Generator_ColumnPropNameInTable="propietarioColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Direccion_fisica" msprop:Generator_UserColumnName="Direccion_fisica" msprop:Generator_ColumnPropNameInRow="Direccion_fisica" msprop:Generator_ColumnVarNameInTable="columnDireccion_fisica" msprop:Generator_ColumnPropNameInTable="Direccion_fisicaColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Lectura" msprop:Generator_UserColumnName="Lectura" msprop:Generator_ColumnPropNameInRow="Lectura" msprop:Generator_ColumnVarNameInTable="columnLectura" msprop:Generator_ColumnPropNameInTable="LecturaColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Consumo_anterior" msprop:Generator_UserColumnName="Consumo_anterior" msprop:Generator_ColumnPropNameInRow="Consumo_anterior" msprop:Generator_ColumnVarNameInTable="columnConsumo_anterior" msprop:Generator_ColumnPropNameInTable="Consumo_anteriorColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="Consumo_actual" msprop:Generator_UserColumnName="Consumo_actual" msprop:Generator_ColumnPropNameInRow="Consumo_actual" msprop:Generator_ColumnVarNameInTable="columnConsumo_actual" msprop:Generator_ColumnPropNameInTable="Consumo_actualColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

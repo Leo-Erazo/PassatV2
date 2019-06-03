@@ -1,0 +1,9 @@
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\bin\Debug\Datos_clase.dll
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\bin\Debug\Datos_clase.pdb
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\bin\Debug\Datos_clase.xml
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\obj\Debug\Datos_clase.Resources.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\obj\Debug\Datos_clase.vbproj.GenerateResource.Cache
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\obj\Debug\Datos_clase.dll
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\obj\Debug\Datos_clase.xml
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O\Datos_clase\obj\Debug\Datos_clase.pdb

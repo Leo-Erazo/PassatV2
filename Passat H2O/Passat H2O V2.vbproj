@@ -1,0 +1,1251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1139F6E7-C149-45DB-99AB-12F13FF693E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Passat_H2O.My.MyApplication</StartupObject>
+    <RootNamespace>Passat_H2O</RootNamespace>
+    <AssemblyName>Passat H2O</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <OptionStrict>Off</OptionStrict>
+    <OptionExplicit>On</OptionExplicit>
+    <ManifestCertificateThumbprint>22DECF9EBE885D8DF5FA4B9BA5AA14BE84561CCD</ManifestCertificateThumbprint>
+    <ManifestKeyFile>Passat H2O V2_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>Snowe2.1 Icon 04.ico</ApplicationIcon>
+    <PublishUrl>C:\Users\Public\Documents\Passat V2\31mayo\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\Backup\PassatV2\Passat H2O\</UpdateUrl>
+    <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Passat H2O.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Passat H2O.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</NoWarn>
+    <WarningsAsErrors>
+    </WarningsAsErrors>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Configuracion\frmConstantes.Designer.vb">
+      <DependentUpon>frmConstantes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmConstantes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmBloques.Designer.vb">
+      <DependentUpon>frmBloques.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmBloques.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmSectores.Designer.vb">
+      <DependentUpon>frmSectores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmSectores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmSendas.Designer.vb">
+      <DependentUpon>frmSendas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmSendas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmUsuarios.Designer.vb">
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmUsuarios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuracion\frmUsuario_Cambio_passw.Designer.vb">
+      <DependentUpon>frmUsuario_Cambio_passw.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Configuracion\frmUsuario_Cambio_passw.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Datos.vb" />
+    <Compile Include="Facturacion\Anulaciones\frmAnula_abono_factura.Designer.vb">
+      <DependentUpon>frmAnula_abono_factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_abono_factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_abono_servicios.Designer.vb">
+      <DependentUpon>frmAnula_abono_servicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_abono_servicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_extraordinaria.Designer.vb">
+      <DependentUpon>frmAnula_extraordinaria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_extraordinaria.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_penalidad.Designer.vb">
+      <DependentUpon>frmAnula_penalidad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmAnula_penalidad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmMenu_anulaciones.Designer.vb">
+      <DependentUpon>frmMenu_anulaciones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Anulaciones\frmMenu_anulaciones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmAbono_Cuenta_Ahorro.Designer.vb">
+      <DependentUpon>frmAbono_Cuenta_Ahorro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmAbono_Cuenta_Ahorro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCargo_Cuenta_Ahorro.Designer.vb">
+      <DependentUpon>frmCargo_Cuenta_Ahorro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCargo_Cuenta_Ahorro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCobro_factura.Designer.vb">
+      <DependentUpon>frmCobro_factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCobro_factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCuentas_ahorro_crear.Designer.vb">
+      <DependentUpon>frmCuentas_ahorro_crear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCuentas_ahorro_crear.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCuentas_ahorro_socios.Designer.vb">
+      <DependentUpon>frmCuentas_ahorro_socios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmCuentas_ahorro_socios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmFacturas_listado.Designer.vb">
+      <DependentUpon>frmFacturas_listado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmFacturas_listado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmPago_factura.Designer.vb">
+      <DependentUpon>frmPago_factura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmPago_factura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmPeriodosConFactsVencidas.Designer.vb">
+      <DependentUpon>frmPeriodosConFactsVencidas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmPeriodosConFactsVencidas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmSociosConConvenioPago.Designer.vb">
+      <DependentUpon>frmSociosConConvenioPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmSociosConConvenioPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmSociosInactivos.Designer.vb">
+      <DependentUpon>frmSociosInactivos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmSociosInactivos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmSocios_mini.Designer.vb">
+      <DependentUpon>frmSocios_mini.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Cobranza\frmSocios_mini.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryReciboCtaAhorro.vb">
+      <DependentUpon>CryReciboCtaAhorro.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsRecibo.vb">
+      <DependentUpon>dsRecibo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmReciboCtaAhorro.Designer.vb">
+      <DependentUpon>frmReciboCtaAhorro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmReciboCtaAhorro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryAbonosConsolidadosMes.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryAbonosConsolidadosMes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryCorte_servicio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryCorte_servicio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryFacturas_individuales.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryFacturas_individuales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryFactura_Manual.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryFactura_Manual.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryPagosDelDia.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryPagosDelDia.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryPagosYnoPagosPeriodo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryPagosYnoPagosPeriodo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\CryRecibo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CryRecibo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsAbonos_del_mes_consolidado_tipoAbono.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAbonos_del_mes_consolidado_tipoAbono.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsAbonos_historicos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsAbonos_historicos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsCorte_servicio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCorte_servicio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsFactura_Manual.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFactura_Manual.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsLista_inconsistencias.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsLista_inconsistencias.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsPagosImpagos.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsPagosImpagos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsRecibo.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsRecibo.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsSaldos_socio.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsSaldos_socio.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_abonos_historicos.Designer.vb">
+      <DependentUpon>frmImprime_abonos_historicos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_abonos_historicos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_corte_servicio.Designer.vb">
+      <DependentUpon>frmImprime_corte_servicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_corte_servicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_factura_manual.Designer.vb">
+      <DependentUpon>frmImprime_factura_manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_factura_manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Inconsistencias.Designer.vb">
+      <DependentUpon>frmImprime_Inconsistencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Inconsistencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Pagos_del_dia.Designer.vb">
+      <DependentUpon>frmImprime_Pagos_del_dia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Pagos_del_dia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Recibo.Designer.vb">
+      <DependentUpon>frmImprime_Recibo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Recibo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_saldos_asociado.Designer.vb">
+      <DependentUpon>frmImprime_saldos_asociado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_saldos_asociado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmReportePagosYnoPagosPeriodo.Designer.vb">
+      <DependentUpon>frmReportePagosYnoPagosPeriodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmReportePagosYnoPagosPeriodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmRepo_Ingresos_mes_consolidado.Designer.vb">
+      <DependentUpon>frmRepo_Ingresos_mes_consolidado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmRepo_Ingresos_mes_consolidado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmRe_Imprime_Factura_Manual.Designer.vb">
+      <DependentUpon>frmRe_Imprime_Factura_Manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmRe_Imprime_Factura_Manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\Pagos_del_dia.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Pagos_del_dia.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\ReciboCtaAhorro.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReciboCtaAhorro.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\rptAbonos_historicos.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptAbonos_historicos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\rptInconsistencias.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptInconsistencias.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\rptSaldos_socio.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSaldos_socio.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmCuentas_auto_pago.Designer.vb">
+      <DependentUpon>frmCuentas_auto_pago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmCuentas_auto_pago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmFactura_manual.Designer.vb">
+      <DependentUpon>frmFactura_manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmFactura_manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmIngreso_lecturas.Designer.vb">
+      <DependentUpon>frmIngreso_lecturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmIngreso_lecturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmListado_lecturas_encabezados.Designer.vb">
+      <DependentUpon>frmListado_lecturas_encabezados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmListado_lecturas_encabezados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Config_facturas\frmPeriodos.Designer.vb">
+      <DependentUpon>frmPeriodos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Config_facturas\frmPeriodos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Config_facturas\frmServicios.Designer.vb">
+      <DependentUpon>frmServicios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Config_facturas\frmServicios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Config_facturas\frmTarifas.Designer.vb">
+      <DependentUpon>frmTarifas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Config_facturas\frmTarifas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmPenaliza_masiva.Designer.vb">
+      <DependentUpon>frmPenaliza_masiva.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmPenaliza_masiva.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmPenaliza_masiva_auto.Designer.vb">
+      <DependentUpon>frmPenaliza_masiva_auto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmPenaliza_masiva_auto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmToma_lectura.Designer.vb">
+      <DependentUpon>frmToma_lectura.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmToma_lectura.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsCobros_mes.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsCobros_mes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsFacturas.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsFacturas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsFacturas.vb">
+      <DependentUpon>dsFacturas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\dsToma_lectura.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsToma_lectura.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_facturas.Designer.vb">
+      <DependentUpon>frmImprime_facturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_facturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Listado_gral_cobros.Designer.vb">
+      <DependentUpon>frmImprime_Listado_gral_cobros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Listado_gral_cobros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Toma_lecturas.Designer.vb">
+      <DependentUpon>frmImprime_Toma_lecturas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\frmImprime_Toma_lecturas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\rptListado_Cobros_Del_Periodo.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptListado_Cobros_Del_Periodo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Impresiones\rptLista_Toma_lecturas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptLista_Toma_lecturas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmVerifica_inconsistencia.Designer.vb">
+      <DependentUpon>frmVerifica_inconsistencia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Procesos\frmVerifica_inconsistencia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmAltos_Y_Bajos.Designer.vb">
+      <DependentUpon>frmAltos_Y_Bajos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmAltos_Y_Bajos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmCuentas_Corte_servicio.Designer.vb">
+      <DependentUpon>frmCuentas_Corte_servicio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmCuentas_Corte_servicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmFactPorRubroPeriodo.Designer.vb">
+      <DependentUpon>frmFactPorRubroPeriodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmFactPorRubroPeriodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmListado_Cobro_Periodo.Designer.vb">
+      <DependentUpon>frmListado_Cobro_Periodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmListado_Cobro_Periodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReporteConsumPeriodoSocio.Designer.vb">
+      <DependentUpon>frmReporteConsumPeriodoSocio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReporteConsumPeriodoSocio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReportes_Consolidados.Designer.vb">
+      <DependentUpon>frmReportes_Consolidados.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReportes_Consolidados.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReporte_mvtos_cta_ahorro.Designer.vb">
+      <DependentUpon>frmReporte_mvtos_cta_ahorro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReporte_mvtos_cta_ahorro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReporte_pagos_socio.Designer.vb">
+      <DependentUpon>frmReporte_pagos_socio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmReporte_pagos_socio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmSaldos_socios.Designer.vb">
+      <DependentUpon>frmSaldos_socios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmSaldos_socios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmSubTotalesReport1.Designer.vb">
+      <DependentUpon>frmSubTotalesReport1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Facturacion\Reportes\frmSubTotalesReport1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.vb">
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Socios\frmSocio.Designer.vb">
+      <DependentUpon>frmSocio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Socios\frmSocio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Socios\frmSocio_Maestro.Designer.vb">
+      <DependentUpon>frmSocio_Maestro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Socios\frmSocio_Maestro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Configuracion\frmConstantes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmConstantes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmBloques.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmBloques.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmSectores.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSectores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmSendas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSendas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmUsuarios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUsuarios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Configuracion\frmUsuario_Cambio_passw.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmUsuario_Cambio_passw.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Anulaciones\frmAnula_abono_factura.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAnula_abono_factura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Anulaciones\frmAnula_abono_servicios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAnula_abono_servicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Anulaciones\frmAnula_extraordinaria.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAnula_extraordinaria.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Anulaciones\frmAnula_penalidad.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAnula_penalidad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Anulaciones\frmMenu_anulaciones.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMenu_anulaciones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmAbono_Cuenta_Ahorro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAbono_Cuenta_Ahorro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmCargo_Cuenta_Ahorro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCargo_Cuenta_Ahorro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmCobro_factura.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCobro_factura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmCuentas_ahorro_crear.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCuentas_ahorro_crear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmCuentas_ahorro_socios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCuentas_ahorro_socios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmFacturas_listado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFacturas_listado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmPago_factura.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPago_factura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmPeriodosConFactsVencidas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPeriodosConFactsVencidas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmSociosConConvenioPago.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSociosConConvenioPago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmSociosInactivos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSociosInactivos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Cobranza\frmSocios_mini.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSocios_mini.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryReciboCtaAhorro.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryReciboCtaAhorro.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmReciboCtaAhorro.resx">
+      <DependentUpon>frmReciboCtaAhorro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryAbonosConsolidadosMes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryAbonosConsolidadosMes.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryCorte_servicio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryCorte_servicio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryFacturas_individuales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryFacturas_individuales.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryFactura_Manual.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryFactura_Manual.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryPagosDelDia.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryPagosDelDia.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryPagosYnoPagosPeriodo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryPagosYnoPagosPeriodo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\CryRecibo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CryRecibo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_abonos_historicos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_abonos_historicos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_corte_servicio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_corte_servicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_factura_manual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_factura_manual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_Inconsistencias.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_Inconsistencias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_Pagos_del_dia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_Pagos_del_dia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_Recibo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_Recibo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_saldos_asociado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_saldos_asociado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmReportePagosYnoPagosPeriodo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportePagosYnoPagosPeriodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmRepo_Ingresos_mes_consolidado.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRepo_Ingresos_mes_consolidado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmRe_Imprime_Factura_Manual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRe_Imprime_Factura_Manual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\rptAbonos_historicos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptAbonos_historicos.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\rptInconsistencias.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptInconsistencias.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\rptSaldos_socio.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSaldos_socio.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmCuentas_auto_pago.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCuentas_auto_pago.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmFactura_manual.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFactura_manual.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmIngreso_lecturas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmIngreso_lecturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmListado_lecturas_encabezados.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListado_lecturas_encabezados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Config_facturas\frmPeriodos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPeriodos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Config_facturas\frmServicios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmServicios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Config_facturas\frmTarifas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmTarifas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmPenaliza_masiva.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPenaliza_masiva.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmPenaliza_masiva_auto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPenaliza_masiva_auto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmToma_lectura.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmToma_lectura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_facturas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_facturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_Listado_gral_cobros.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_Listado_gral_cobros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\frmImprime_Toma_lecturas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmImprime_Toma_lecturas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\rptListado_Cobros_Del_Periodo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptListado_Cobros_Del_Periodo.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Impresiones\rptLista_Toma_lecturas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptLista_Toma_lecturas.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Procesos\frmVerifica_inconsistencia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmVerifica_inconsistencia.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmAltos_Y_Bajos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAltos_Y_Bajos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmCuentas_Corte_servicio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCuentas_Corte_servicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmFactPorRubroPeriodo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmFactPorRubroPeriodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmListado_Cobro_Periodo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListado_Cobro_Periodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmReporteConsumPeriodoSocio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporteConsumPeriodoSocio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmReportes_Consolidados.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReportes_Consolidados.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmReporte_mvtos_cta_ahorro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporte_mvtos_cta_ahorro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmReporte_pagos_socio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReporte_pagos_socio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmSaldos_socios.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSaldos_socios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Facturacion\Reportes\frmSubTotalesReport1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSubTotalesReport1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Socios\frmSocio.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSocio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Socios\frmSocio_Maestro.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmSocio_Maestro.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Facturacion\Impresiones\dsCobros_mes.xsc">
+      <DependentUpon>dsCobros_mes.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsCobros_mes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCobros_mes.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsCobros_mes.xss">
+      <DependentUpon>dsCobros_mes.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsFacturas.xsc">
+      <DependentUpon>dsFacturas.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsFacturas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFacturas.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsFacturas.xss">
+      <DependentUpon>dsFacturas.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsFactura_Manual.xsc">
+      <DependentUpon>dsFactura_Manual.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsFactura_Manual.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsFactura_Manual.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsFactura_Manual.xss">
+      <DependentUpon>dsFactura_Manual.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsRecibo.xsc">
+      <DependentUpon>dsRecibo.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsRecibo.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsRecibo.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsRecibo.xss">
+      <DependentUpon>dsRecibo.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsToma_lectura.xsc">
+      <DependentUpon>dsToma_lectura.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsToma_lectura.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsToma_lectura.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsToma_lectura.xss">
+      <DependentUpon>dsToma_lectura.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Passat H2O_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LupaDinero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caja_registradora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vencido.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\produccion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abrir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Anular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nuevo32verde.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Salir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\excel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-ios7-contact-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-ios7-people-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-person-add-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-refresh-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imprimir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numeros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guardar16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-checkmark-round-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Facturacion\Impresiones\dsAbonos_del_mes_consolidado_tipoAbono.xsc">
+      <DependentUpon>dsAbonos_del_mes_consolidado_tipoAbono.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsAbonos_del_mes_consolidado_tipoAbono.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAbonos_del_mes_consolidado_tipoAbono.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsAbonos_del_mes_consolidado_tipoAbono.xss">
+      <DependentUpon>dsAbonos_del_mes_consolidado_tipoAbono.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsLista_inconsistencias.xsc">
+      <DependentUpon>dsLista_inconsistencias.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsLista_inconsistencias.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsLista_inconsistencias.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsLista_inconsistencias.xss">
+      <DependentUpon>dsLista_inconsistencias.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsPagosImpagos.xsc">
+      <DependentUpon>dsPagosImpagos.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsPagosImpagos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsPagosImpagos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsPagosImpagos.xss">
+      <DependentUpon>dsPagosImpagos.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\Pagos_del_dia.xsc">
+      <DependentUpon>Pagos_del_dia.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\Pagos_del_dia.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Pagos_del_dia.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\Pagos_del_dia.xss">
+      <DependentUpon>Pagos_del_dia.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\icon-locked-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PassatAgua.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money_delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\globe_model.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\map.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cut_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alarm_bell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cog.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\draw_convolve.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cash_register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\change_password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\house.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database_save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Facturacion\Impresiones\dsAbonos_historicos.xsc">
+      <DependentUpon>dsAbonos_historicos.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsAbonos_historicos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsAbonos_historicos.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsAbonos_historicos.xss">
+      <DependentUpon>dsAbonos_historicos.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsCorte_servicio.xsc">
+      <DependentUpon>dsCorte_servicio.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsCorte_servicio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsCorte_servicio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsCorte_servicio.xss">
+      <DependentUpon>dsCorte_servicio.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsSaldos_socio.xsc">
+      <DependentUpon>dsSaldos_socio.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\dsSaldos_socio.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsSaldos_socio.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\dsSaldos_socio.xss">
+      <DependentUpon>dsSaldos_socio.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\ReciboCtaAhorro.xsc">
+      <DependentUpon>ReciboCtaAhorro.xsd</DependentUpon>
+    </None>
+    <None Include="Facturacion\Impresiones\ReciboCtaAhorro.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReciboCtaAhorro.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Facturacion\Impresiones\ReciboCtaAhorro.xss">
+      <DependentUpon>ReciboCtaAhorro.xsd</DependentUpon>
+    </None>
+    <None Include="Passat H2O V2_TemporaryKey.pfx" />
+    <None Include="Passat H2O_1_TemporaryKey.pfx" />
+    <None Include="Resources\backup_manager.png" />
+    <Content Include="Snowe2.1 Icon 04.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

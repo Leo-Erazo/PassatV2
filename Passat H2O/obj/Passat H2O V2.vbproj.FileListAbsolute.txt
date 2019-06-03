@@ -1,0 +1,174 @@
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryReciboCtaAhorro.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryAbonosConsolidadosMes.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryCorte_servicio.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryFacturas_individuales.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryFactura_Manual.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryPagosDelDia.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryPagosYnoPagosPeriodo.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.CryRecibo.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.rptAbonos_historicos.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.rptInconsistencias.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.rptSaldos_socio.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.rptListado_Cobros_Del_Periodo.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.rptLista_Toma_lecturas.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmBloques.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmLogin.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSectores.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSendas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmUsuarios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmUsuario_Cambio_passw.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmAbono_Cuenta_Ahorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmCargo_Cuenta_Ahorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmCobro_factura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmCuentas_ahorro_crear.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmCuentas_ahorro_socios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmFacturas_listado.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSociosConConvenioPago.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSociosInactivos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSocios_mini.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmReciboCtaAhorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_abonos_historicos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_corte_servicio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_factura_manual.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_Inconsistencias.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_Pagos_del_dia.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_Recibo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_saldos_asociado.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmReportePagosYnoPagosPeriodo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmRepo_Ingresos_mes_consolidado.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmRe_Imprime_Factura_Manual.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmFactura_manual.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmIngreso_lecturas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmListado_lecturas_encabezados.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmPeriodos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmServicios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmTarifas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmToma_lectura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_facturas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_Listado_gral_cobros.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmImprime_Toma_lecturas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmVerifica_inconsistencia.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmAltos_Y_Bajos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmCuentas_Corte_servicio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmFactPorRubroPeriodo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmListado_Cobro_Periodo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmReporteConsumPeriodoSocio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmReportes_Consolidados.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmReporte_mvtos_cta_ahorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmReporte_pagos_socio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSaldos_socios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSubTotalesReport1.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmPrincipal.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.Resources.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSocio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmSocio_Maestro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat H2O V2.vbproj.GenerateResource.Cache
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat H2O.xml
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat H2O.pdb
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Debug\Passat H2O.exe.manifest
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Debug\Passat H2O.application
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Debug\Passat H2O.exe
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Debug\Passat H2O.pdb
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Debug\Passat H2O.xml
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat H2O.exe.manifest
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat H2O.application
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat H2O.exe
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmPenaliza_masiva.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmPeriodosConFactsVencidas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmPago_factura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmCuentas_auto_pago.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmPenaliza_masiva_auto.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmAnula_abono_factura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmAnula_abono_servicios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmMenu_anulaciones.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmAnula_penalidad.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmAnula_extraordinaria.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Release\Passat H2O.exe.manifest
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Release\Passat H2O.application
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Release\Passat H2O.exe
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Release\Passat H2O.pdb
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\bin\Release\Passat H2O.xml
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryReciboCtaAhorro.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryAbonosConsolidadosMes.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryCorte_servicio.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryFacturas_individuales.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryFactura_Manual.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryPagosDelDia.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryPagosYnoPagosPeriodo.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.CryRecibo.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.rptAbonos_historicos.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.rptInconsistencias.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.rptSaldos_socio.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.rptListado_Cobros_Del_Periodo.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.rptLista_Toma_lecturas.rpt
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmBloques.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmLogin.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSectores.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSendas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmUsuarios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmUsuario_Cambio_passw.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmAnula_abono_factura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmAnula_abono_servicios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmAnula_extraordinaria.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmAnula_penalidad.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmMenu_anulaciones.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmAbono_Cuenta_Ahorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmCargo_Cuenta_Ahorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmCobro_factura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmCuentas_ahorro_crear.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmCuentas_ahorro_socios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmFacturas_listado.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmPago_factura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmPeriodosConFactsVencidas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSociosConConvenioPago.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSociosInactivos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSocios_mini.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmReciboCtaAhorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_abonos_historicos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_corte_servicio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_factura_manual.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_Inconsistencias.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_Pagos_del_dia.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_Recibo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_saldos_asociado.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmReportePagosYnoPagosPeriodo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmRepo_Ingresos_mes_consolidado.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmRe_Imprime_Factura_Manual.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmCuentas_auto_pago.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmFactura_manual.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmIngreso_lecturas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmListado_lecturas_encabezados.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmPeriodos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmServicios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmTarifas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmPenaliza_masiva.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmPenaliza_masiva_auto.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmToma_lectura.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_facturas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_Listado_gral_cobros.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmImprime_Toma_lecturas.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmVerifica_inconsistencia.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmAltos_Y_Bajos.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmCuentas_Corte_servicio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmFactPorRubroPeriodo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmListado_Cobro_Periodo.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmReporteConsumPeriodoSocio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmReportes_Consolidados.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmReporte_mvtos_cta_ahorro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmReporte_pagos_socio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSaldos_socios.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSubTotalesReport1.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmPrincipal.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.Resources.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSocio.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmSocio_Maestro.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat H2O V2.vbproj.GenerateResource.Cache
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat H2O.exe.manifest
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat H2O.application
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat H2O.exe
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat H2O.xml
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat H2O.pdb
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Debug\Passat_H2O.frmConstantes.resources
+C:\Users\Leonidas Erazo\Documents\Visual Studio 2005\Projects\Passat H2O V2\Passat H2O\obj\Release\Passat_H2O.frmConstantes.resources
